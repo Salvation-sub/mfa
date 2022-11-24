@@ -1,4 +1,3 @@
-// 공용 웹팩 설정을 현재 설정가 합칠 수 있게해준다.
 const { merge } = require("webpack-merge");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const commonConfig = require("./webpack.common");
