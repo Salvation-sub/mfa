@@ -19,6 +19,7 @@ const devConfig = {
       name: "container",
       remotes: {
         marketing: "marketing@http://localhost:8081/remoteEntry.js",
+        auth: "auth@http://localhost:8082/remoteEntry.js",
       },
       // 프로젝트간의 공통 모듈 공유
       shared: packageJson.dependencies,
