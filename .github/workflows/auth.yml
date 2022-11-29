@@ -1,4 +1,4 @@
-# marketing actions
+# auth actions
 name: deploy-auth
 
 on:
